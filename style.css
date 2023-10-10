@@ -22,7 +22,8 @@ body {
 
 }
 
-.mainImage img, .wievIcon{
+.mainImage img,
+.wievIcon {
     width: 100%;
     border-radius: 8px;
     height: 302px;
@@ -120,33 +121,34 @@ body {
 }
 
 .title:hover,
-.creatorInfo a:hover{
+.creatorInfo a:hover {
     color: var(--Cyan, #00FFF8);
     cursor: pointer;
-    
+
 }
 
-.mainImage{
+.mainImage {
     position: relative;
 }
-.wievIcon img{  
+
+.wievIcon img {
     width: 48px;
     height: 48px;
-    
+
 }
-.wievIcon{
+
+.wievIcon {
     background: rgba(0, 255, 248, 0.5);
     height: 302px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    right:0px;
-    top:0px;
+    right: 0px;
+    top: 0px;
     display: none;
 }
 
-.mainImage:hover .wievIcon{
+.mainImage:hover .wievIcon {
     display: flex;
 }
-
