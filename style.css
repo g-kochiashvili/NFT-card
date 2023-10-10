@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+body {
+    min-height: 100vh;
+    /* min-width: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 24px;
+    background: var(--very-dark-blue-main-bg, #0D192C);
+}
+
+.card {
+    width: 327px;
+    min-height: 543px;
+    padding: 24px 24px 31px;
+    border-radius: 15px;
+    background: var(--very-dark-blue-card-bg, #15263F);
+    box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.mainImage img, .wievIcon{
+    width: 100%;
+    border-radius: 8px;
+    height: 302px;
+}
+
+.title {
+    color: white;
+    font-family: Outfit;
+    font-size: 22px;
+    margin-top: 24px;
+    font-weight: 600;
+}
+
+.information {
+    font-family: 'Outfit', sans-serif;
+    color: var(--Soft-Blue, #8BACD9);
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 12px;
+    /* font-weight: 300; */
+}
+
+.equilibriumInfo {
+    margin-top: 16px;
+    display: flex;
+    gap: 97px;
+    /* flex-direction: row; */
+    /*justify-content: center;
+    align-items: center; */
+}
+
+.ETH {
+    display: flex;
+    height: fit-content;
+    gap: 6px;
+}
+
+.ETH img {
+    width: 11px;
+    height: 18px;
+}
+
+.ETH p {
+    color: var(--Cyan, #00FFF8);
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.days {
+    display: flex;
+    gap: 7.69px;
+
+}
+
+.days img {
+    width: 16px;
+    height: 16px;
+}
+
+.days p {
+    color: var(--Soft-Blue, #8BACD9);
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.line {
+    width: 278px;
+    height: 1px;
+    background: var(--very-dark-blue-line, #2E405A);
+    margin-top: 16px;
+}
+
+.creatorInfo {
+    display: flex;
+    padding-top: 16px;
+}
+
+.creatorInfo img {
+    width: 33px;
+}
+
+.creatorInfo p {
+    padding: 7px 60px 7px 16px;
+    color: var(--Soft-Blue, #8BACD9);
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.creatorInfo a {
+    color: var(--White, #FFF);
+}
+
+.title:hover,
+.creatorInfo a:hover{
+    color: var(--Cyan, #00FFF8);
+    cursor: pointer;
+    
+}
+
+.mainImage{
+    position: relative;
+}
+.wievIcon img{  
+    width: 48px;
+    height: 48px;
+    
+}
+.wievIcon{
+    background: rgba(0, 255, 248, 0.5);
+    height: 302px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:0px;
+    top:0px;
+    display: none;
+}
+
+.mainImage:hover .wievIcon{
+    display: flex;
+}
+
