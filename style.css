@@ -118,6 +118,7 @@ body {
 
 .creatorInfo a {
     color: var(--White, #FFF);
+    font-size: 16px;
 }
 
 .title:hover,
@@ -151,4 +152,31 @@ body {
 
 .mainImage:hover .wievIcon {
     display: flex;
+}
+
+@media only screen and (min-width:1140px) {
+    body {
+        height: 900px;
+        padding: 152px 0px;
+        background-color: #00FFF8;
+    }
+
+    .card {
+        width: 350px;
+        height: 596px;
+    }
+
+    .information {
+        margin-top: 16px;
+    }
+
+    .equilibriumInfo {
+        margin-top: 24px;
+        gap: 110.8px;
+    }
+
+    .line {
+        width: 302px;
+        margin-top: 24px;
+    }
 }
